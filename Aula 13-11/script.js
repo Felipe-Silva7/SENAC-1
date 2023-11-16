@@ -17,6 +17,33 @@ div_chef.setAttribute('class', 'chef-avatar')
 card.append(div_chef)
 
 
+let btn_receita = document.createElement('button')
+btn_receita.setAttribute('class' , 'btn-receita')
+btn_receita.textContent = "ver receita"
+
+
+
+card.append(btn_receita)
+
+
+
+
+
+
+
+
+let lb_chef = document.createElement('label')
+
+lb_chef.setAttribute('class', 'lb-chef')
+
+lb_chef.textContent = 'felipe'
+
+card.append(lb_chef)
+
+
+
+
+
 fragment.append(card)
 
 
@@ -25,7 +52,9 @@ fragment.append(card)
 
 
 
+
 container.append(fragment)
+
 
 
 

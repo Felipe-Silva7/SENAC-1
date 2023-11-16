@@ -16,6 +16,8 @@ html,body{
     flex-wrap: wrap;
 }
 
+
+
 #object{
     margin: 100px;
     width: 150px;
@@ -61,6 +63,20 @@ html,body{
     height: 90px;
     border-radius: 45px;
     margin-top: calc(-45px - 2mm);
+}
+
+.btn-receita{
+    padding: 2mm;
+    font-size: 24pt;
+    background-color: #F78B1F;
+    border-radius: 3mm;
+    color: white;
+    font-weight: 700;
+    margin-top: 5mm;
+}
+
+.lb-chef{
+    margin: 2mm;
 }
 
 .top{
