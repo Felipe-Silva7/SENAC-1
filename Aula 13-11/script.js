@@ -8,11 +8,13 @@ card.setAttribute('class', 'card')
 
 let div_img = document.createElement('div')
 div_img.setAttribute('class', 'div-img')
+div_img.style.backgroundImage = "url('Torta-de-coco-queimado.jpg')"
 
 card.append(div_img)
 
 let div_chef = document.createElement('div')
 div_chef.setAttribute('class', 'chef-avatar')
+div_chef.style.backgroundImage = "url('download.jpg')"
 
 card.append(div_chef)
 
@@ -41,7 +43,12 @@ lb_chef.textContent = 'felipe'
 card.append(lb_chef)
 
 
+let lb_avaliacao = document.createElement('label')
+lb_avaliacao.setAttribute('class' , 'lb-avaliacao')
+lb_avaliacao.textContent = '❤ 1111'
+ 
 
+card.append(lb_avaliacao)
 
 
 fragment.append(card)
